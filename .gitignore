@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+*.swp
+
+# Editor
+.vscode/
+.idea/
+
+# Test artifacts
+*.log
+report*.txt
+
+# Secrets
+.env
+!tests/fixtures/*.log
